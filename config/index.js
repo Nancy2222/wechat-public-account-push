@@ -40,6 +40,21 @@ export const config = {
       openUrl: "https://weibo.com/p/106003type=25&t=3&disable_hot=1&filter_type=realtimehot"
     }
   ],
+  {
+      // 想要发送的人的名字
+      name: "叽里咕噜",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "oIMKK5okxWGTDw4Uh_YEn1EHKPgg",
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: "oCNi83syLxKLFCHRIJLRN6d43Ahiazo0J37SWgedDyo",
+      // 所在省份
+      province: "吉林",
+      // 所在城市
+      city: "长春",
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: "https://weibo.com/p/106003type=25&t=3&disable_hot=1&filter_type=realtimehot"
+    }
+  ],
 
   /**
    * 回调消息 相关，主要用来展示发送是否成功/失败的数据
