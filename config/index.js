@@ -93,7 +93,7 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "蓝孔雀", "year": "1998", "date": "12-13"},
+    {"type": "生日", "name": "蓝孔雀", "year": "1998", "date": "9-5"},
     {"type": "节日", "name": "恋爱纪念日", "year": "2020", "date": "08-30"},
     {"type": "生日", "name": "沙驴", "year": "1997", "date": "02-28"},
   ],
