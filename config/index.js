@@ -32,14 +32,28 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oIMKK5okxWGTDw4Uh_YEn1EHKPgg",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "oCNi83syLxKLFCHRIJLRN6d43Ahiazo0J37SWgedDyo",
+      useTemplateId: "hfYvqqboDHSE3-2CEzNEbkbnj6BQWlPhe2nGa65ltKU",
       // 所在省份
       province: "吉林",
       // 所在城市
       city: "长春",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://weibo.com/p/106003type=25&t=3&disable_hot=1&filter_type=realtimehot"
-    }
+    }，
+    {
+      // 想要发送的人的名字
+      name: "小猪哥",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "oIMKK5iWVMlRJdngBwEjPYraJ1VE",
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: "hfYvqqboDHSE3-2CEzNEbkbnj6BQWlPhe2nGa65ltKU",
+      // 所在省份
+      province: "吉林",
+      // 所在城市
+      city: "长春",
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: "https://weibo.com/p/106003type=25&t=3&disable_hot=1&filter_type=realtimehot"
+    }，
   ],
 
 
@@ -80,7 +94,7 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "蓝孔雀", "year": "1998", "date": "9-5"},
+    {"type": "生日", "name": "蓝孔雀", "year": "1998", "date": "12-13"},
     {"type": "节日", "name": "恋爱纪念日", "year": "2020", "date": "08-30"},
     {"type": "生日", "name": "沙驴", "year": "1997", "date": "02-28"},
   ],
